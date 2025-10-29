@@ -14,21 +14,23 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="space-y-16 max-w-6xl mx-auto">
           {/* Diego */}
-          <div className="space-y-6">
-            <div className="relative overflow-hidden rounded-2xl aspect-square">
-              <img
-                src={diegoImage}
-                alt="Diego Fintelman"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent opacity-60"></div>
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            <div className="w-full md:w-1/3">
+              <div className="relative overflow-hidden rounded-2xl aspect-square">
+                <img
+                  src={diegoImage}
+                  alt="Diego Fintelman"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent opacity-60"></div>
+              </div>
             </div>
-            <div className="space-y-3">
+            <div className="w-full md:w-2/3 space-y-4">
               <h3 className="text-3xl font-bold">Diego Fintelman</h3>
-              <p className="text-primary font-semibold">Gestor de Tráfego Pago & Gestor de IAs</p>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-primary font-semibold text-lg">Gestor de Tráfego Pago & Gestor de IAs</p>
+              <p className="text-muted-foreground leading-relaxed text-lg">
                 Especialista em estratégias de tráfego pago com foco em performance e ROI. 
                 Domínio em Meta Ads, Google Ads e otimização de campanhas através de IA e análise de dados. 
                 Transformou dezenas de negócios através de estratégias inteligentes e mensuráveis.
@@ -36,23 +38,28 @@ const About = () => {
             </div>
           </div>
 
-          {/* Gabriela */}
-          <div className="space-y-6">
-            <div className="relative overflow-hidden rounded-2xl aspect-square">
-              <img
-                src={gabrielaImage}
-                alt="Gabriela Fintelman"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent opacity-60"></div>
+          {/* Gabriela - Com tons de rosé */}
+          <div className="flex flex-col md:flex-row-reverse gap-8 items-center p-8 rounded-3xl border-2 border-[hsl(var(--rose-gold)_/_0.3)] bg-gradient-to-br from-[hsl(var(--rose-gold)_/_0.05)] to-transparent">
+            <div className="w-full md:w-1/3">
+              <div className="relative overflow-hidden rounded-2xl aspect-square ring-2 ring-[hsl(var(--rose-gold)_/_0.5)]">
+                <img
+                  src={gabrielaImage}
+                  alt="Gabriela Fintelman"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--rose-muted))] via-transparent opacity-60"></div>
+              </div>
             </div>
-            <div className="space-y-3">
-              <h3 className="text-3xl font-bold">Gabriela Fintelman</h3>
-              <p className="text-primary font-semibold">Social Media & Copywriter</p>
-              <p className="text-muted-foreground leading-relaxed">
+            <div className="w-full md:w-2/3 space-y-4">
+              <h3 className="text-3xl font-bold text-gradient-rose">Gabriela Fintelman</h3>
+              <p className="font-semibold text-lg" style={{ color: 'hsl(var(--rose-gold))' }}>
+                Social Media, Copywriter, Design Criativo & Edição de Vídeos
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-lg">
                 Especialista em criação de conteúdo estratégico e gestão de redes sociais. 
                 Domínio em copywriting persuasivo que converte visitantes em clientes. 
-                Responsável por campanhas que geraram milhões em vendas através de textos que vendem.
+                Expert em design criativo e edição de vídeos que capturam atenção e geram engajamento.
+                Responsável por campanhas que geraram milhões em vendas através de conteúdo que vende.
               </p>
             </div>
           </div>

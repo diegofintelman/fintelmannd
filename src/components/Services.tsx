@@ -12,7 +12,7 @@ const services = [
     icon: Users,
     title: "Social Media",
     description: "Criação de conteúdos estratégicos e gestão completa de redes sociais. Conteúdo que engaja, converte e constrói autoridade.",
-    features: ["Planejamento de Conteúdo", "Gestão de Redes", "Design & Criação", "Análise de Métricas"],
+    features: ["Planejamento de Conteúdo", "Gestão de Redes", "Design Criativo", "Edição de Vídeos"],
   },
   {
     icon: PenTool,

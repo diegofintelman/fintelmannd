@@ -59,17 +59,17 @@ const Footer = () => {
             <div className="flex gap-4">
               <button
                 onClick={() => window.open("https://wa.me/5515997820279", "_blank")}
-                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-colors group"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-5 h-5 text-primary" />
+                <MessageCircle className="w-5 h-5 text-primary group-hover:text-[hsl(var(--rose-gold))] transition-colors" />
               </button>
               <button
                 onClick={() => window.open("https://instagram.com", "_blank")}
-                className="w-10 h-10 bg-primary/10 hover:bg-primary/20 rounded-lg flex items-center justify-center transition-colors"
+                className="w-10 h-10 bg-primary/10 hover:bg-[hsl(var(--rose-gold)_/_0.1)] rounded-lg flex items-center justify-center transition-colors group"
                 aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5 text-primary" />
+                <Instagram className="w-5 h-5 text-primary group-hover:text-[hsl(var(--rose-gold))] transition-colors" />
               </button>
             </div>
             <p className="text-sm text-muted-foreground">

@@ -13,6 +13,7 @@ const Hero = () => {
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[hsl(var(--rose-gold)_/_0.03)]"></div>
       </div>
 
       {/* Content */}

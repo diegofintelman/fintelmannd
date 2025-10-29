@@ -54,33 +54,48 @@ const Services = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {services.map((service, index) => (
-            <Card
-              key={index}
-              className="bg-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-[var(--shadow-gold)] group"
-            >
-              <CardContent className="p-8 space-y-4">
-                <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <service.icon className="w-8 h-8 text-primary" />
-                </div>
-                
-                <h3 className="text-2xl font-bold">{service.title}</h3>
-                
-                <p className="text-muted-foreground leading-relaxed">
-                  {service.description}
-                </p>
-                
-                <ul className="space-y-2 pt-4">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center gap-2 text-sm">
-                      <div className="w-1.5 h-1.5 bg-primary rounded-full"></div>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </CardContent>
-            </Card>
-          ))}
+          {services.map((service, index) => {
+            const isGabiService = index === 1 || index === 2; // Social Media & Copywriting
+            return (
+              <Card
+                key={index}
+                className={`bg-card transition-all duration-300 group ${
+                  isGabiService 
+                    ? 'border-[hsl(var(--rose-gold)_/_0.3)] hover:border-[hsl(var(--rose-gold)_/_0.5)] hover:shadow-[var(--shadow-rose)]' 
+                    : 'border-primary/20 hover:border-primary/40 hover:shadow-[var(--shadow-gold)]'
+                }`}
+              >
+                <CardContent className="p-8 space-y-4">
+                  <div className={`w-16 h-16 rounded-xl flex items-center justify-center transition-colors ${
+                    isGabiService
+                      ? 'bg-[hsl(var(--rose-gold)_/_0.1)] group-hover:bg-[hsl(var(--rose-gold)_/_0.2)]'
+                      : 'bg-primary/10 group-hover:bg-primary/20'
+                  }`}>
+                    <service.icon className={`w-8 h-8 ${isGabiService ? 'text-[hsl(var(--rose-gold))]' : 'text-primary'}`} />
+                  </div>
+                  
+                  <h3 className={`text-2xl font-bold ${isGabiService ? 'text-gradient-rose' : ''}`}>
+                    {service.title}
+                  </h3>
+                  
+                  <p className="text-muted-foreground leading-relaxed">
+                    {service.description}
+                  </p>
+                  
+                  <ul className="space-y-2 pt-4">
+                    {service.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-center gap-2 text-sm">
+                        <div className={`w-1.5 h-1.5 rounded-full ${
+                          isGabiService ? 'bg-[hsl(var(--rose-gold))]' : 'bg-primary'
+                        }`}></div>
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            );
+          })}
         </div>
 
         <div className="mt-12 text-center">

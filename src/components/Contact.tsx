@@ -21,7 +21,7 @@ const Contact = () => {
               Pronto para <span className="text-gradient-gold">Crescer?</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Solicite seu orçamento personalizado e descubra como podemos escalar seu negócio
+              Solicite seu orçamento personalizado e descubra como podemos <span className="text-[hsl(var(--rose-gold)_/_0.6)]">escalar</span> seu negócio
             </p>
           </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
               <p className="text-sm text-muted-foreground">Resposta Máxima</p>
             </div>
             <div className="space-y-2">
-              <div className="text-3xl font-bold text-primary">100%</div>
+              <div className="text-3xl font-bold text-[hsl(var(--rose-gold))]">100%</div>
               <p className="text-sm text-muted-foreground">Personalizado</p>
             </div>
             <div className="space-y-2">

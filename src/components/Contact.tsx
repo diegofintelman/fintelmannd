@@ -26,32 +26,32 @@ const Contact = () => {
           </div>
 
           <div className="bg-background/50 backdrop-blur-sm border border-primary/20 rounded-2xl p-8 md:p-12 space-y-8">
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="flex items-center gap-4">
+            <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p className="font-semibold">Telefone</p>
-                  <p className="text-sm text-muted-foreground">(15) 99782-0279</p>
+                  <p className="text-sm text-muted-foreground break-words">(15) 99782-0279</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p className="font-semibold">Email</p>
-                  <p className="text-sm text-muted-foreground">contato@fintelman.com.br</p>
+                  <p className="text-sm text-muted-foreground break-words">contato@fintelman.com.br</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <MessageCircle className="w-6 h-6 text-primary" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <p className="font-semibold">WhatsApp</p>
                   <p className="text-sm text-muted-foreground">Atendimento imediato</p>
                 </div>

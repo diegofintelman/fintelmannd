@@ -55,11 +55,6 @@ const Header = () => {
                 Nichos
               </button>
             </li>
-            <li>
-              <button onClick={() => scrollToSection("casos")} className="text-foreground hover:text-primary transition-colors">
-                Resultados
-              </button>
-            </li>
           </ul>
 
           <Button
@@ -93,9 +88,6 @@ const Header = () => {
             </button>
             <button onClick={() => scrollToSection("nichos")} className="block w-full text-left text-foreground hover:text-primary transition-colors py-2">
               Nichos
-            </button>
-            <button onClick={() => scrollToSection("casos")} className="block w-full text-left text-foreground hover:text-primary transition-colors py-2">
-              Resultados
             </button>
             <Button
               onClick={() => window.open("https://wa.me/5515997820279", "_blank")}

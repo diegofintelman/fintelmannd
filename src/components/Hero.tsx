@@ -38,24 +38,6 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-3xl mx-auto">
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-primary">+100</div>
-              <div className="text-sm text-muted-foreground">Clientes Atendidos</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-primary">5+</div>
-              <div className="text-sm text-muted-foreground">Anos de Experiência</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-primary">R$10M+</div>
-              <div className="text-sm text-muted-foreground">Investidos em Tráfego</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold text-primary">98%</div>
-              <div className="text-sm text-muted-foreground">Satisfação</div>
-            </div>
-          </div>
         </div>
       </div>
 

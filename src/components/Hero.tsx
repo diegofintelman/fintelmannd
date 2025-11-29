@@ -5,15 +5,13 @@ import chessImage from "@/assets/chess-pieces.jpg";
 const Hero = () => {
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-24">
-      {/* Background Image with Overlay */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src={chessImage}
           alt="Estratégia e Inteligência"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background"></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-transparent via-transparent to-[hsl(var(--rose-gold)_/_0.03)]"></div>
       </div>
 
       {/* Content */}

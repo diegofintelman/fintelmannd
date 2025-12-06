@@ -26,13 +26,14 @@ const Hero = () => {
             Tráfego Pago, Social Media e Copywriting para Negócios Locais e Infoprodutos
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 px-2">
             <Button
               size="lg"
               onClick={() => window.open("https://wa.me/5515997820279", "_blank")}
-              className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 shadow-[var(--shadow-gold)] hover:shadow-xl transition-all duration-300"
+              className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 shadow-[var(--shadow-gold)] hover:shadow-xl transition-all duration-300"
             >
-              Peça seu Orçamento no WhatsApp
+              <span className="hidden sm:inline">Peça seu Orçamento no WhatsApp</span>
+              <span className="sm:hidden">Orçamento no WhatsApp</span>
               <ArrowRight className="ml-2" />
             </Button>
           </div>

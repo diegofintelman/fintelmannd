@@ -66,10 +66,11 @@ const Contact = () => {
               <Button
                 size="lg"
                 onClick={() => window.open("https://wa.me/5515997820279", "_blank")}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-12 py-6 shadow-[var(--shadow-gold)] hover:shadow-xl transition-all duration-300"
+                className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg px-6 sm:px-12 py-5 sm:py-6 shadow-[var(--shadow-gold)] hover:shadow-xl transition-all duration-300"
               >
-                <MessageCircle className="mr-2" />
-                Solicitar Orçamento no WhatsApp
+                <MessageCircle className="mr-2 flex-shrink-0" />
+                <span className="hidden sm:inline">Solicitar Orçamento no WhatsApp</span>
+                <span className="sm:hidden">Orçamento no WhatsApp</span>
               </Button>
 
               <p className="text-sm text-muted-foreground">

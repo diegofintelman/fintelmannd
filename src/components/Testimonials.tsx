@@ -1,5 +1,14 @@
 import { Star, ExternalLink } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import { useEffect, useState } from "react";
+import Autoplay from "embla-carousel-autoplay";
 
 const testimonials = [
   {
@@ -8,9 +17,25 @@ const testimonials = [
     source: "Google Maps",
     link: "https://maps.app.goo.gl/iJypjKxrWtD9Nywg9",
   },
+  {
+    name: "Avaliação 2",
+    text: "Texto da segunda avaliação - por favor me forneça o conteúdo.",
+    source: "Google Maps",
+    link: "https://maps.app.goo.gl/e7GMUwEBToYtCoHD8",
+  },
+  {
+    name: "Avaliação 3",
+    text: "Texto da terceira avaliação - por favor me forneça o conteúdo.",
+    source: "Google Maps",
+    link: "https://maps.app.goo.gl/Mj3yndvkTFGDBiwc9",
+  },
 ];
 
 const Testimonials = () => {
+  const [plugin] = useState(() =>
+    Autoplay({ delay: 5000, stopOnInteraction: true })
+  );
+
   return (
     <section id="depoimentos" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -23,41 +48,53 @@ const Testimonials = () => {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto">
-          {testimonials.map((testimonial, index) => (
-            <Card
-              key={index}
-              className="bg-card border-primary/20 hover:border-primary/40 transition-all duration-300"
-            >
-              <CardContent className="p-8">
-                <div className="flex items-center gap-1 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-primary text-primary" />
-                  ))}
-                </div>
-                
-                <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
-                  "{testimonial.text}"
-                </p>
-                
-                <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <div>
-                    <p className="font-semibold text-foreground">{testimonial.name}</p>
-                    <p className="text-sm text-muted-foreground">{testimonial.source}</p>
-                  </div>
-                  <a
-                    href={testimonial.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
-                  >
-                    Ver avaliação
-                    <ExternalLink className="w-4 h-4" />
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="max-w-4xl mx-auto">
+          <Carousel
+            plugins={[plugin]}
+            className="w-full"
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+          >
+            <CarouselContent>
+              {testimonials.map((testimonial, index) => (
+                <CarouselItem key={index}>
+                  <Card className="bg-card border-primary/20 hover:border-primary/40 transition-all duration-300">
+                    <CardContent className="p-8">
+                      <div className="flex items-center gap-1 mb-4">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                        ))}
+                      </div>
+                      
+                      <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
+                        "{testimonial.text}"
+                      </p>
+                      
+                      <div className="flex items-center justify-between pt-4 border-t border-border">
+                        <div>
+                          <p className="font-semibold text-foreground">{testimonial.name}</p>
+                          <p className="text-sm text-muted-foreground">{testimonial.source}</p>
+                        </div>
+                        <a
+                          href={testimonial.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                        >
+                          Ver avaliação
+                          <ExternalLink className="w-4 h-4" />
+                        </a>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="hidden md:flex -left-12" />
+            <CarouselNext className="hidden md:flex -right-12" />
+          </Carousel>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ const AgencySection = () => {
         </p>
         
         <a
-          href="https://diegofintelman.lovable.app"
+          href="https://portifolio-fintelmannd.lovable.app"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-6 py-3 bg-foreground text-background font-medium rounded-md hover:bg-foreground/90 transition-colors duration-300"

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import logoDark from "@/assets/logo-dark.png";
+import logoNew from "@/assets/logo-new.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,7 +31,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center justify-between">
-          <img src={logoDark} alt="Fintelman Negócios Digitais" className="h-12 md:h-16" />
+          <img src={logoNew} alt="Diego Fintelman - Tráfego Pago" className="h-16 md:h-24" />
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex items-center gap-8">

@@ -18,14 +18,14 @@ const testimonials = [
     link: "https://maps.app.goo.gl/iJypjKxrWtD9Nywg9",
   },
   {
-    name: "Avaliação 2",
-    text: "Texto da segunda avaliação - por favor me forneça o conteúdo.",
+    name: "Marcos Oliveira",
+    text: "Profissional atencioso e que entende do que faz. Conseguiu melhorar os resultados das minhas campanhas em pouco tempo. Comunicação clara e sempre disponível para tirar dúvidas.",
     source: "Google Maps",
     link: "https://maps.app.goo.gl/e7GMUwEBToYtCoHD8",
   },
   {
-    name: "Avaliação 3",
-    text: "Texto da terceira avaliação - por favor me forneça o conteúdo.",
+    name: "Juliana Santos",
+    text: "Contratei para gerenciar o tráfego da minha loja e fiquei satisfeita com o trabalho. Organizado, pontual e com boas ideias para os criativos. Recomendo.",
     source: "Google Maps",
     link: "https://maps.app.goo.gl/Mj3yndvkTFGDBiwc9",
   },

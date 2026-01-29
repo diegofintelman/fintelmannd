@@ -55,6 +55,16 @@ const Header = () => {
                 Nichos
               </button>
             </li>
+            <li>
+              <a 
+                href="https://portifolio-fintelmannd.lovable.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Portfólio para Agências
+              </a>
+            </li>
           </ul>
 
           <Button
@@ -89,6 +99,14 @@ const Header = () => {
             <button onClick={() => scrollToSection("nichos")} className="block w-full text-left text-foreground hover:text-primary transition-colors py-2">
               Nichos
             </button>
+            <a 
+              href="https://portifolio-fintelmannd.lovable.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
+            >
+              Portfólio para Agências
+            </a>
             <Button
               onClick={() => window.open("https://wa.me/5515997820279", "_blank")}
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90"

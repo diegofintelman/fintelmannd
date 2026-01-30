@@ -57,8 +57,8 @@ const Header = () => {
             </li>
             <li>
               <a 
-                href="https://portifolio-fintelmannd.lovable.app" 
-                target="_blank" 
+                href="https://portifolio.fintelmannd.com.br/" 
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
               >
@@ -100,8 +100,8 @@ const Header = () => {
               Nichos
             </button>
             <a 
-              href="https://portifolio-fintelmannd.lovable.app" 
-              target="_blank" 
+              href="https://portifolio.fintelmannd.com.br/" 
+              target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
             >

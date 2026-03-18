@@ -32,8 +32,7 @@ const About = () => {
               <p className="text-primary font-semibold text-lg">Gestor de Tráfego Pago & Gestor de IAs</p>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 Especialista em estratégias de tráfego pago com foco em performance e ROI. 
-                Domínio em Meta Ads, Google Ads e otimização de campanhas através de IA e análise de dados. 
-                Transformou dezenas de negócios através de estratégias inteligentes e mensuráveis.
+                Domínio em Meta Ads, Google Ads e otimização de campanhas através de IA e análise de dados.
               </p>
             </div>
           </div>

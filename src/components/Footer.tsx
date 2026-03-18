@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <img src={logoLight} alt="Fintelman Negócios Digitais" className="h-12" />
+            <img src={logoFooter} alt="Fintelman Negócios Digitais" className="h-12" />
             <p className="text-sm text-muted-foreground">
               Estratégia e inteligência em marketing digital para negócios que querem crescer online.
             </p>

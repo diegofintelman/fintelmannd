@@ -1,5 +1,5 @@
 import { Instagram, MessageCircle } from "lucide-react";
-import logoLight from "@/assets/logo-light.png";
+import logoFooter from "@/assets/logo-footer.png";
 
 const Footer = () => {
   return (

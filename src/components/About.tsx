@@ -59,7 +59,6 @@ const About = () => {
                 Especialista em criação de conteúdo estratégico e gestão de redes sociais. 
                 Domínio em copywriting persuasivo que converte visitantes em clientes. 
                 Expert em design criativo e edição de vídeos que capturam atenção e geram engajamento.
-                Responsável por campanhas que geraram milhões em vendas através de conteúdo que vende.
               </p>
             </div>
           </div>

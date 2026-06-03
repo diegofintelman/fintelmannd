@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import logoNew from "@/assets/logo-new.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,14 +55,20 @@ const Header = () => {
               </button>
             </li>
             <li>
-              <a 
-                href="https://portifolio.fintelmannd.com.br/" 
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link 
+                to="/trafego" 
                 className="text-foreground hover:text-primary transition-colors"
               >
-                Portfólio para Agências
-              </a>
+                Portfólio de Tráfego
+              </Link>
+            </li>
+            <li>
+              <Link 
+                to="/site" 
+                className="text-foreground hover:text-primary transition-colors"
+              >
+                Portfólio de Sites
+              </Link>
             </li>
           </ul>
 
@@ -97,14 +104,18 @@ const Header = () => {
             <button onClick={() => scrollToSection("nichos")} className="block w-full text-left text-foreground hover:text-primary transition-colors py-2">
               Nichos
             </button>
-            <a 
-              href="https://portifolio.fintelmannd.com.br/" 
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link 
+              to="/trafego" 
               className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
             >
-              Portfólio para Agências
-            </a>
+              Portfólio de Tráfego
+            </Link>
+            <Link 
+              to="/site" 
+              className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
+            >
+              Portfólio de Sites
+            </Link>
             <Button
               onClick={() => window.open("https://wa.me/5515997820279", "_blank")}
               className="w-full bg-primary text-primary-foreground hover:bg-primary/90"

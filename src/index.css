@@ -65,6 +65,17 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 41 46% 58%;
     --sidebar-border: 41 46% 58% / 0.2;
     --sidebar-ring: 41 46% 58%;
+
+    /* Custom colors for portfolios */
+    --gold: 43 74% 49%;
+    --gold-light: 43 74% 60%;
+    --gold-dark: 43 74% 40%;
+    
+    --dark-bg: 0 0% 6%;
+    --dark-card: 0 0% 10%;
+    --dark-border: 0 0% 18%;
+    --light-bg: 40 20% 96%;
+    --light-card: 40 15% 98%;
   }
 
   .dark {
@@ -102,5 +113,25 @@ All colors MUST be HSL.
   
   .border-gradient {
     border-image: var(--gradient-gold) 1;
+  }
+
+  .section-dark {
+    @apply bg-[hsl(var(--dark-bg))] text-[hsl(0,0%,95%)];
+  }
+
+  .section-light {
+    @apply bg-[hsl(var(--light-bg))] text-[hsl(0,0%,8%)];
+  }
+
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+
+  .bg-gold {
+    background-color: hsl(var(--gold));
+  }
+
+  .border-gold {
+    border-color: hsl(var(--gold));
   }
 }

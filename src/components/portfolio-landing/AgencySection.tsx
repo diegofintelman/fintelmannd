@@ -11,7 +11,7 @@ const AgencySection = () => {
               Atuação com Agências
             </h2>
             
-            <div className="space-y-4 text-muted-foreground">
+            <div className="space-y-4 text-[hsl(0,0%,25%)] [&_span]:text-[hsl(0,0%,8%)] [&_span]:font-semibold">
               <p>
                 <span className="text-foreground font-medium">Integração simples</span> com 
                 times internos. Entendo que cada agência tem seus processos, ferramentas e 

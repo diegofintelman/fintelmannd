@@ -1,4 +1,5 @@
 import { TrendingUp, Monitor } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const PortfolioLinksSection = () => {
   return (
@@ -13,24 +14,20 @@ const PortfolioLinksSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center">
-            <a
-              href="https://portifolio.fintelmannd.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/trafego"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:bg-primary/90 hover:-translate-y-0.5 transition-all duration-300 shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               <TrendingUp className="w-4 h-4" />
               Portfólio de Tráfego Pago
-            </a>
-            <a
-              href="https://sitesportifolio.lovable.app"
-              target="_blank"
-              rel="noopener noreferrer"
+            </Link>
+            <Link
+              to="/site"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-primary/30 bg-background/60 text-foreground font-medium hover:bg-primary/10 hover:-translate-y-0.5 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             >
               <Monitor className="w-4 h-4" />
               Portfólio de Sites
-            </a>
+            </Link>
           </div>
         </div>
       </div>

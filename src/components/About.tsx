@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <div className="w-full md:w-2/3 space-y-4">
               <h3 className="text-3xl font-bold">Diego Fintelman</h3>
-              <p className="text-primary font-semibold text-lg">Gestor de Tráfego Pago & Gestor de IAs</p>
+              <p className="text-primary font-semibold text-lg">Gestor de Tráfego Pago</p>
               <p className="text-muted-foreground leading-relaxed text-lg">
                 Especialista em estratégias de tráfego pago com foco em performance e ROI. 
                 Domínio em Meta Ads, Google Ads e otimização de campanhas através de IA e análise de dados.

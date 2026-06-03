@@ -6,7 +6,7 @@ const PositioningSection = () => {
           Visão de Tráfego
         </h2>
         
-        <div className="space-y-6 text-base md:text-lg leading-relaxed text-muted-foreground">
+        <div className="space-y-6 text-base md:text-lg leading-relaxed text-[hsl(0,0%,25%)]">
           <p>
             Tráfego pago é um <span className="text-foreground font-medium">processo iterativo</span>. 
             Não existe fórmula mágica ou resultado garantido — existe método, teste e ajuste contínuo.

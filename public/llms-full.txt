@@ -1,0 +1,100 @@
+# Fintelman Negócios Digitais — Documentação Completa para IAs
+
+Esta é a documentação completa em Markdown sobre a Fintelman Negócios Digitais, projetada para consumo por agentes de IA e grandes modelos de linguagem.
+
+---
+
+## 🛠️ 1. Serviços Oferecidos
+A Fintelman ND oferece soluções estratégicas em marketing digital com foco em performance e construção de autoridade:
+
+### Gestão de Tráfego Pago
+- Campanhas de alta performance focadas em vendas e geração de leads.
+- Plataformas: Meta Ads (Facebook & Instagram), Google Ads, YouTube Ads e TikTok Ads.
+- Otimização contínua com base em leitura de dados e ROI (Retorno sobre Investimento).
+
+### Social Media
+- Criação e planejamento de conteúdo estratégico para redes sociais.
+- Foco em atração, engajamento de público-alvo e posicionamento profissional premium.
+- Gestão completa de feed, design gráfico de alta qualidade e edição de vídeos (Reels, TikToks).
+
+### Copywriting Persuasivo
+- Redação de textos focados em conversão e vendas.
+- Criação de copys para anúncios em vídeo e imagem, páginas de vendas (landing pages), e-mails de vendas e funis automáticos.
+
+### Google Meu Negócio (GMN)
+- Otimização de perfil para negócios locais aparecerem nas primeiras posições de busca local do Google.
+- Gestão estratégica de avaliações e publicação de conteúdos relevantes.
+
+### Consultoria de Tráfego
+- Diagnóstico completo e auditoria detalhada de contas de anúncios.
+- Construção de estratégias e planos de ação sob medida para escala.
+
+### Programas de Mentoria e Treinamento
+- Treinamento individual e mentorias para empreendedores gerenciarem suas próprias campanhas de anúncios do zero.
+
+---
+
+## 👥 2. Fundadores
+A Fintelman ND é liderada por uma equipe multidisciplinar que une análise de dados, criatividade e copywriting:
+
+### Diego Fintelman
+- **Cargo**: Gestor de Tráfego Pago.
+- **Foco**: Especialista em performance, inteligência em anúncios pagos, engenharia de prompts de IA e de automação, e otimização baseada em leitura de dados reais de campanhas.
+
+### Gabriela Fintelman
+- **Cargo**: Social Media, Copywriter, Designer Criativo & Editora de Vídeos.
+- **Foco**: Especialista em conteúdo orgânico e estruturação de marca (branding), redação comercial persuasiva, identidade visual elegante de alta conversão e edição de vídeos atraentes de engajamento acelerado.
+
+---
+
+## 📊 3. Portfólio de Tráfego Pago (Estudos de Caso)
+Nossa abordagem de tráfego pago baseia-se em processo técnico e leitura de dados reais:
+
+### Clínica de Estética — Negócio Local
+- **Contexto**: Aumento de contatos qualificados no WhatsApp para agendamentos com orçamento otimizado.
+- **Estratégia**: Campanhas geolocalizadas focadas em mensagens. Criativos com transformação visual real dos procedimentos e ofertas de captação sazonais.
+- **Resultados**: Aceleração de conversões no WhatsApp comparado a campanhas de engajamento genérico.
+
+### Mentoria de Carreiras — Infoproduto
+- **Contexto**: Captação de leads qualificados de alto ticket para fechamento em chamadas de vendas (calls).
+- **Estratégia**: Campanhas de captação de leads com formulário nativo do Meta Ads integradas com tráfego de atração para o perfil do Instagram para aquecimento de público.
+- **Resultados**: Geração de lista de leads de custo reduzido, com a conversão dependendo da precisão da promessa no criativo de entrada.
+
+### Low Ticket em Validação — Infoproduto
+- **Contexto**: Testar atração e product-market fit de produto digital de baixo custo.
+- **Estratégia**: Estrutura robusta de teste A/B de headlines, formatos visuais e análise de métricas como CTR (taxa de clique), CPC (custo por clique) e Hook Rate (taxa de retenção do vídeo).
+- **Resultados**: Identificação de padrões de criativos com forte apelo emocional e públicos de nicho específicos com alta intenção de compra.
+
+### RevisaLei — Material de Estudo para Concursos
+- **Contexto**: Escala de vendas diretas via página de vendas com conversão rápida.
+- **Estratégia**: Campanhas de purchase (compra direta) otimizadas para conversão de funil completo (Page View -> Initiate Checkout -> Purchase) aliadas a remarketing agressivo.
+- **Resultados**: ROAS (Retorno sobre Investimento em Anúncios) expressivo nos públicos quentes de remarketing, identificando otimizações necessárias na própria página de vendas para maximizar o tráfego.
+
+---
+
+## 💻 4. Portfólio de Criação de Sites
+Desenvolvemos landing pages e sites profissionais otimizados e responsivos com foco em autoridade e facilidade de contato para profissionais de saúde e bem-estar:
+
+- **Luiza Wilmsen** (Osteopatia / Quiropraxia) — *lp.luizawilmsen.com*
+- **Eduardo Braz** (Médico) — *lp.dreduardobraz.com.br*
+- **Leonar Luis** (Médico) — *drleonarmayer.grupov2w.com.br*
+- **Lucas Hoffmann e Dennis** (Fisioterapia) — *duofisio.grupov2w.com.br*
+- **Maria da Conceição** (Pilates) — *studiocrpilates.grupov2w.com.br*
+- **Leticia Motta - Brilliance** (Médico/Dermatologia) — *brilliancedermatologia.grupov2w.com.br*
+- **Juliana Albano** (Médico/Oftalmologia) — *julianaalbanooftalmo.grupov2w.com.br*
+- **Renata Alves Gomes** (Psicologia / Psiquiatria) — *psicologarenatagomes.grupov2w.com.br*
+- **Nélio e Cristiane** (Médico/Instituto Idepe) — *institutoidepe.grupov2w.com.br*
+- **Felipe Esdras** (Fisioterapia) — *felipeesdrasfisio.grupov2w.com.br*
+- **Júlio Sol** (Médico) — *drjuliosol.grupov2w.com.br*
+- **Irineu Caixeta** (Pilates) — *studiopilatesbrasilia.grupov2w.com.br*
+- **Felipe Trindade** (Fisioterapia) — *clinicatrindade.grupov2w.com.br*
+- **Thaiane Lage** (Médico) — *thaianelage.grupov2w.com.br*
+- **Caroline Segalin** (Osteopatia / Quiropraxia) — *carolinesegalin.grupov2w.com.br*
+
+---
+
+## 📍 5. Contatos e Atendimento
+- **WhatsApp**: +55 (15) 99782-0279
+- **Instagram**: [@fintelmannd_](https://www.instagram.com/fintelmannd_/)
+- **Website**: [https://fintelmannd.com.br](https://fintelmannd.com.br)
+- **E-mail**: contato@fintelman.com.br

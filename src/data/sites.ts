@@ -3,7 +3,9 @@ export type SiteCategory =
   | "Fisioterapia"
   | "Osteopatia / Quiropraxia"
   | "Pilates"
-  | "Psicologia / Psiquiatria";
+  | "Psicologia / Psiquiatria"
+  | "Imóveis"
+  | "Construção Civil";
 
 export interface SiteProject {
   nome: string;
@@ -24,12 +26,6 @@ export const sites: SiteProject[] = [
     categoria: "Médico",
     url: "https://lp.dreduardobraz.com.br/",
     descricao: "Landing page médica com foco em autoridade, clareza e apresentação premium.",
-  },
-  {
-    nome: "Leonar Luis",
-    categoria: "Médico",
-    url: "https://drleonarmayer.grupov2w.com.br/",
-    descricao: "Site médico estruturado para fortalecer presença digital e facilitar o contato.",
   },
   {
     nome: "Lucas Hoffmann e Dennis",
@@ -103,6 +99,18 @@ export const sites: SiteProject[] = [
     url: "https://carolinesegalin.grupov2w.com.br/",
     descricao: "Site profissional para osteopatia/quiropraxia com foco em autoridade e atendimento.",
   },
+  {
+    nome: "Kelly Belem",
+    categoria: "Imóveis",
+    url: "https://kellybelem.com",
+    descricao: "Site profissional para corretora de imóveis de alto padrão na Flórida, EUA, com foco em propriedades premium para compradores exigentes.",
+  },
+  {
+    nome: "Consteell",
+    categoria: "Construção Civil",
+    url: "https://constell.com.br",
+    descricao: "Site institucional para empresa de estrutura metálica, telhados, calhas, rufos e fachadas com atendimento a obras residenciais, comerciais e industriais.",
+  },
 ];
 
 export const categories: ("Todos" | SiteCategory)[] = [
@@ -112,4 +120,6 @@ export const categories: ("Todos" | SiteCategory)[] = [
   "Osteopatia / Quiropraxia",
   "Pilates",
   "Psicologia / Psiquiatria",
+  "Imóveis",
+  "Construção Civil",
 ];

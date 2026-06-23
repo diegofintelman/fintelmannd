@@ -1,49 +1,18 @@
-Atualizar `public/robots.txt` para permitir todos os crawlers (incluindo bots de IA), bloquear pastas privadas e referenciar o sitemap.
+Atualizar `src/data/sites.ts` com três mudanças pontuais:
 
-Conteúdo final:
+## 1. Remover projeto
+- Excluir o card "Leonar Luis" (drleonarmayer.grupov2w.com.br).
 
-```
-User-agent: *
-Allow: /
-Disallow: /admin/
-Disallow: /dashboard/
+## 2. Adicionar dois novos projetos ao array `sites`
+- **Kelly Belem** — categoria "Imóveis", URL https://kellybelem.com  
+  "Site profissional para corretora de imóveis de alto padrão na Flórida, EUA, com foco em propriedades premium para compradores exigentes."
+- **Consteell** — categoria "Construção Civil", URL https://constell.com.br  
+  "Site institucional para empresa de estrutura metálica, telhados, calhas, rufos e fachadas com atendimento a obras residenciais, comerciais e industriais."
 
-User-agent: Googlebot
-Allow: /
+## 3. Atualizar filtros / tipos
+- Estender o tipo `SiteCategory` adicionando `"Imóveis"` e `"Construção Civil"`.
+- Adicionar essas duas entradas ao array `categories`, mantendo a ordem atual:  
+  `Todos | Médico | Fisioterapia | Osteopatia / Quiropraxia | Pilates | Psicologia / Psiquiatria | Imóveis | Construção Civil`.
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Anthropic-AI
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-Sitemap: https://fintelmannd.com.br/sitemap.xml
-```
-
-Observações:
-- O `Disallow` de `/admin/` e `/dashboard/` fica apenas no bloco `User-agent: *` (regra geral aplicável a todos), conforme solicitado de manter `Allow: /` explícito para os bots nomeados.
-- A URL informada é um domínio; usarei `https://fintelmannd.com.br/sitemap.xml` como caminho padrão do sitemap. Nenhum arquivo `sitemap.xml` será criado nesta tarefa.
+## Restrições
+- Nenhuma outra alteração em cards, rotas, componentes ou estrutura. Os componentes que consomem `sites` e `categories` continuarão funcionando sem mudanças, já que apenas estendemos os dados.

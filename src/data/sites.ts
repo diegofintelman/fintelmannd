@@ -1,5 +1,6 @@
 export type SiteCategory =
   | "Médico"
+  | "Odontologia"
   | "Fisioterapia"
   | "Osteopatia / Quiropraxia"
   | "Pilates"

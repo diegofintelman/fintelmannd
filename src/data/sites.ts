@@ -123,6 +123,7 @@ export const sites: SiteProject[] = [
 export const categories: ("Todos" | SiteCategory)[] = [
   "Todos",
   "Médico",
+  "Odontologia",
   "Fisioterapia",
   "Osteopatia / Quiropraxia",
   "Pilates",

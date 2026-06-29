@@ -1,5 +1,6 @@
 export type SiteCategory =
   | "Médico"
+  | "Odontologia"
   | "Fisioterapia"
   | "Osteopatia / Quiropraxia"
   | "Pilates"
@@ -26,6 +27,12 @@ export const sites: SiteProject[] = [
     categoria: "Médico",
     url: "https://lp.dreduardobraz.com.br/",
     descricao: "Landing page médica com foco em autoridade, clareza e apresentação premium.",
+  },
+  {
+    nome: "Clínica Balen Odontologia",
+    categoria: "Odontologia",
+    url: "https://balenodontologia.com.br",
+    descricao: "Site institucional otimizado com SEO e apresentação profissional da clínica e do profissional.",
   },
   {
     nome: "Lucas Hoffmann e Dennis",
@@ -116,6 +123,7 @@ export const sites: SiteProject[] = [
 export const categories: ("Todos" | SiteCategory)[] = [
   "Todos",
   "Médico",
+  "Odontologia",
   "Fisioterapia",
   "Osteopatia / Quiropraxia",
   "Pilates",

@@ -29,6 +29,12 @@ export const sites: SiteProject[] = [
     descricao: "Landing page médica com foco em autoridade, clareza e apresentação premium.",
   },
   {
+    nome: "Clínica Balen Odontologia",
+    categoria: "Odontologia",
+    url: "https://balenodontologia.com.br",
+    descricao: "Site institucional otimizado com SEO e apresentação profissional da clínica e do profissional.",
+  },
+  {
     nome: "Lucas Hoffmann e Dennis",
     categoria: "Fisioterapia",
     url: "https://duofisio.grupov2w.com.br/",

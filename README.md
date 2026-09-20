@@ -1,99 +1,73 @@
-# fintelmannd.com.br
+# Welcome to your Lovable project
 
-Site da Fintelman Negócios Digitais.
+## Project info
 
-**Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS · MDX
-**Domínio e CDN:** Cloudflare
-**Domínio canônico:** `https://www.fintelmannd.com.br` (o apex responde 307 para o `www`)
+**URL**: https://lovable.dev/projects/520cfa0b-16bc-411a-aaf8-dbef4ceb10c6
 
----
+## How can I edit this code?
 
-## Rodando local
+There are several ways of editing your application.
 
-```bash
-npm install
-```
+**Use Lovable**
 
-```bash
+Simply visit the [Lovable Project](https://lovable.dev/projects/520cfa0b-16bc-411a-aaf8-dbef4ceb10c6) and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Outros comandos:
+**Edit a file directly in GitHub**
 
-```bash
-npm run build
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```bash
-npm run typecheck
-```
+**Use GitHub Codespaces**
 
-O build e o typecheck precisam passar antes de qualquer merge.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## Estrutura
+This project is built with:
 
-```
-app/                 rotas (App Router)
-  page.tsx           home, em sete capítulos
-  estrutura-digital/ o método em oito etapas
-  servicos/[slug]/   páginas de serviço
-  cases/[slug]/      cases, cada um com URL própria
-  blog/[slug]/       artigos, renderizados de content/blog/*.mdx
-  lp/[slug]/         landing pages montadas a partir de dados
-  sitemap.ts         gerado das mesmas fontes que criam as páginas
-  robots.ts
-components/          componentes de UI e de medição
-content/blog/        artigos em MDX, com frontmatter validado
-lib/                 conteúdo estruturado e utilidades
-  site.ts            contatos, navegação, rótulo do CTA
-  analytics.ts       contrato de eventos
-  cases.ts           os cases
-  servicos.ts        o conteúdo das páginas de serviço
-  metodo.ts          as oito etapas
-  landing-pages.ts   as LPs
-docs/                auditoria, brief, medição, pendências, status
-```
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## Onde mexer para cada coisa
+Simply open [Lovable](https://lovable.dev/projects/520cfa0b-16bc-411a-aaf8-dbef4ceb10c6) and click on Share -> Publish.
 
-| Quero... | Vá em |
-|---|---|
-| Trocar telefone, e-mail ou rótulo do CTA | `lib/site.ts` |
-| Publicar um artigo | criar `content/blog/<slug>.mdx` |
-| Adicionar um case | `lib/cases.ts` + imagem em `public/cases/` |
-| Criar uma landing page | acrescentar um objeto em `lib/landing-pages.ts` |
-| Adicionar um site ao portfólio | `lib/sites.ts` |
-| Adicionar um evento de medição | `lib/analytics.ts` primeiro, depois o componente |
-| Mudar cor, espaçamento ou tipo | `app/globals.css` e `tailwind.config.ts` |
+## Can I connect a custom domain to my Lovable project?
 
-Nenhuma dessas mudanças exige tocar em componente de layout.
+Yes, you can!
 
----
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## Antes de contribuir
-
-Leia, nesta ordem:
-
-1. **`AGENTS.md`** — as regras que não se negociam.
-2. **`PROJECT_BRIEF.md`** — posicionamento, público, arquitetura comercial.
-3. **`docs/AUDIT.md`** — o estado anterior, e por que as decisões foram tomadas.
-
-A mais importante delas, resumida: **nenhum número entra neste site sem prova
-que o sustente.** Sem print, sem contador. Sem link para a avaliação original,
-sem depoimento.
-
----
-
-## Documentação
-
-| Arquivo | O que é |
-|---|---|
-| `docs/AUDIT.md` | Auditoria técnica do site anterior |
-| `docs/BRIEF.md` | Direção de design, grammar, curva de sentimento |
-| `docs/MEDICAO.md` | Plano de medição: cada evento, quando dispara, se é conversão |
-| `docs/PENDENCIAS.md` | O que depende de decisão ou informação externa |
-| `docs/IMPLEMENTATION_STATUS.md` | O que foi feito, o que falta, o que foi corrigido |
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

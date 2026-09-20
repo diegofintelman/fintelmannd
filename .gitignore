@@ -1,3 +1,21 @@
+# Dependências
+node_modules
+.pnp
+.pnp.js
+
+# Build do Next.js
+# Sem estas linhas o build inteiro (milhares de arquivos) entra no commit.
+# O .gitignore anterior era do projeto Vite e só cobria `dist`.
+.next/
+out/
+build/
+dist
+dist-ssr
+
+# Cache de ferramentas
+*.tsbuildinfo
+next-env.d.ts
+
 # Logs
 logs
 *.log
@@ -7,18 +25,27 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Variáveis de ambiente — NUNCA commitar valores reais.
+# `.env.example` é versionado de propósito: só tem as chaves, sem valor.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
 
-# Editor directories and files
+# Arquivos locais de editor e sistema
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.local
+
+# Configuração local de preview desta máquina
+.claude/launch.json

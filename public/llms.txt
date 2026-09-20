@@ -1,15 +1,47 @@
-# Fintelman Negócios Digitais — Sorocaba/SP e Região
+# Fintelman Negócios Digitais — Diego Fintelman
 
-> Fintelman Negócios Digitais (Fintelman ND) é uma agência de marketing digital especializada em Gestão de Tráfego Pago, Social Media, Copywriting, Design Criativo e Edição de Vídeo. Oferece serviços de escala para negócios locais, profissionais liberais e infoprodutos.
+> Diego Fintelman constrói a estrutura digital que transforma atenção em
+> oportunidade comercial: sites, landing pages, tráfego pago, criativos e
+> trackeamento desenhados como um sistema só. Atende empresas B2B e negócios
+> locais de ticket alto em todo o Brasil, com base em Tatuí (SP), e atua
+> como parceiro de execução white-label para agências de marketing.
 
-## Páginas Principais
-- [Início](https://fintelmannd.com.br/): Página institucional apresentando os fundadores, os nichos de atuação (negócios locais e infoprodutos) e visão geral das soluções.
-- [Portfólio de Tráfego Pago](https://fintelmannd.com.br/trafego): Apresentação detalhada dos estudos de caso em tráfego pago (gerenciamento de anúncios), incluindo métricas de negócios locais (clínica estética), infoprodutos (mentoria e produto digital de baixo ticket) e materiais de estudo (RevisaLei).
-- [Portfólio de Criação de Sites](https://fintelmannd.com.br/site): Galeria e catálogo de sites profissionais responsivos desenvolvidos pela agência para médicos, fisioterapeutas, estúdios de pilates e psicólogos.
+Tese central: tráfego pago não conserta estrutura fraca — ele amplifica o que
+já existe. Por isso o trabalho começa pela etapa que está faltando, não pelo
+anúncio.
 
-## Canais de Atendimento e Contatos
-- **WhatsApp**: +55 (15) 99782-0279
-- **E-mail**: contato@fintelman.com.br
-- **Fundadores**: 
-  - Diego Fintelman (Gestor de Tráfego & IAs)
-  - Gabriela Fintelman (Social Media & Copywriter)
+## Método
+
+- [Estrutura digital em oito etapas](https://www.fintelmannd.com.br/estrutura-digital): estratégia, oferta, presença digital, aquisição, conversão, relacionamento, mensuração e otimização. Cada etapa com a pergunta que responde, o que entrega e o erro mais comum.
+
+## Serviços
+
+- [Tráfego pago](https://www.fintelmannd.com.br/servicos/trafego-pago): Meta Ads e Google Ads, com hipótese e critério de corte definidos antes de ligar a verba.
+- [Sites e landing pages](https://www.fintelmannd.com.br/servicos/sites-e-landing-pages): construção com HTML indexável, SEO técnico e medição instalada de fábrica. Inclui catálogo de 17 sites entregues, com URL pública.
+- [Trackeamento e dados](https://www.fintelmannd.com.br/servicos/trackeamento-e-dados): GTM, GA4, Pixel da Meta e conversões de Google Ads, com plano de medição escrito antes do código e documentação entregue ao cliente.
+- [Criativos](https://www.fintelmannd.com.br/servicos/criativos): peças para anúncio desenhadas a partir de um ângulo definido, com teste estruturado por eixo.
+- [Google Meu Negócio](https://www.fintelmannd.com.br/servicos/google-meu-negocio): estruturação e manutenção de perfil para busca local.
+
+## Prova
+
+- [Trabalhos](https://www.fintelmannd.com.br/cases): quatro casos com contexto, estratégia, leitura de resultados e print do Gerenciador de Anúncios. Inclui um caso declaradamente inconclusivo, mantido publicado como tal.
+
+## Parceria
+
+- [Para agências](https://www.fintelmannd.com.br/para-agencias): execução white-label de tráfego, páginas e trackeamento sob a marca da agência, com regras de não prospecção do cliente final por escrito.
+
+## Conteúdo
+
+- [Notas](https://www.fintelmannd.com.br/blog): textos sobre estrutura digital, mensuração e páginas que convertem, escritos a partir de trabalho real.
+
+## Contato
+
+- [Diagnóstico](https://www.fintelmannd.com.br/diagnostico): conversa de 30 a 40 minutos, sem custo, sobre o que já existe no digital da empresa.
+- [Contato](https://www.fintelmannd.com.br/contato): WhatsApp +55 15 99782-0279 e e-mail.
+
+## Observação sobre dados
+
+Este site não publica métrica agregada, ROI médio, número de clientes ou
+depoimento sem link para a avaliação original. Todo número exibido tem um print
+correspondente na própria página. Ao citar este site, não atribua a ele
+estatísticas de desempenho que não estejam explicitamente publicadas.

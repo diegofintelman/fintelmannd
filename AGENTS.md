@@ -122,6 +122,29 @@ Atualize `docs/IMPLEMENTATION_STATUS.md` com o que mudou, e
 
 ---
 
+## Deploy
+
+O projeto foi criado como SPA em Vite e migrado para Next.js. Isso deixou uma
+armadilha que já custou um deploy quebrado:
+
+> `Error: No Output Directory named "dist" found after the Build completed.`
+
+O build passa inteiro — rotas geradas, TypeScript limpo — e só a entrega
+falha, porque a plataforma continuava procurando a pasta `dist` do Vite
+enquanto o Next.js escreve em `.next`.
+
+Por isso existe um `vercel.json` na raiz declarando `"framework": "nextjs"`.
+**Não apague esse arquivo.** Ele não é resquício da plataforma anterior: é a
+configuração de build, e está versionada de propósito, para que o deploy seja
+reproduzível por quem clonar o repositório sem depender de um ajuste feito à
+mão em painel.
+
+Ao diagnosticar um deploy que falhou, leia o log antes de mexer em qualquer
+coisa. O build e a entrega falham por motivos diferentes, e ficar recarregando
+a página não distingue um do outro.
+
+---
+
 ## Rotas que não podem quebrar
 
 `/trafego` e `/site` eram as rotas do site antigo e estão indexadas. Hoje elas

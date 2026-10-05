@@ -55,22 +55,10 @@ export const sites: SiteProject[] = [
     descricao: "Site para clínica dermatológica com estética profissional e navegação objetiva.",
   },
   {
-    nome: "Juliana Albano",
-    categoria: "Médico",
-    url: "https://julianaalbanooftalmo.grupov2w.com.br/",
-    descricao: "Site médico voltado para oftalmologia, com comunicação clara e visual institucional.",
-  },
-  {
     nome: "Renata Alves Gomes",
     categoria: "Psicologia / Psiquiatria",
     url: "https://psicologarenatagomes.grupov2w.com.br/",
     descricao: "Site profissional para apresentação de atendimento psicológico/psiquiátrico.",
-  },
-  {
-    nome: "Nélio e Cristiane",
-    categoria: "Médico",
-    url: "https://institutoidepe.grupov2w.com.br/",
-    descricao: "Site institucional médico com foco em estrutura, especialidades e autoridade.",
   },
   {
     nome: "Felipe Esdras",
@@ -209,12 +197,6 @@ export const sites: SiteProject[] = [
     categoria: "Fisioterapia",
     url: "https://jeanpierrefisio.grupov2w.com.br/",
     descricao: "Site para fisioterapeuta especialista em coluna em Cuiabá, com foco em hérnia de disco e dores agudas ou crônicas.",
-  },
-  {
-    nome: "Clínica Cristina Linhares",
-    categoria: "Psicologia / Psiquiatria",
-    url: "https://cristinalinhares.grupov2w.com.br/",
-    descricao: "Site para clínica de psicologia e psiquiatria em Salvador, com atendimento presencial e online.",
   },
   {
     nome: "Kelly Belem",

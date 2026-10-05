@@ -207,7 +207,7 @@ export const sites: SiteProject[] = [
   {
     nome: "Consteell",
     categoria: "Construção Civil",
-    url: "https://constell.com.br",
+    url: "https://www.consteell.com.br/",
     descricao: "Site institucional para empresa de estrutura metálica, telhados, calhas, rufos e fachadas com atendimento a obras residenciais, comerciais e industriais.",
   },
 ];

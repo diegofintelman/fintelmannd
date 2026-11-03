@@ -1,0 +1,27 @@
+{
+  // Hospedagem na Cloudflare Workers (Static Assets) — substitui a Vercel.
+  // Build: `npm run build` gera ./dist; deploy: `npx wrangler deploy`.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fintelmannd",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-03",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    // O Worker roda antes das páginas (negociação de Markdown e /.well-known),
+    // mas arquivos estáticos pesados são servidos direto, sem consumir requisições.
+    "run_worker_first": [
+      "/*",
+      "!/assets/*",
+      "!/favicon.png",
+      "!/og-image.jpg",
+      "!/placeholder.svg",
+      "!/llms.txt",
+      "!/llms-full.txt",
+      "!/robots.txt",
+      "!/sitemap.xml"
+    ]
+  },
+  "observability": { "enabled": true }
+}

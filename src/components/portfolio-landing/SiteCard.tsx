@@ -14,14 +14,37 @@ const getDomain = (url: string) => {
   }
 };
 
-const getPreviewUrl = (url: string) =>
+// Prévia local: imagem estática em /public/previews/<dominio-com-hifens>.webp
+// (ex.: https://duofisio.grupov2w.com.br -> /previews/duofisio-grupov2w-com-br.webp).
+// Se a imagem local não existir (site novo ainda sem captura), tenta o microlink
+// como reserva e, por último, mostra o ícone com o nome do projeto.
+const getLocalPreview = (url: string) => {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, "");
+    return `/previews/${host.replace(/\./g, "-")}.webp`;
+  } catch {
+    return "";
+  }
+};
+
+const getRemotePreview = (url: string) =>
   `https://api.microlink.io/?url=${encodeURIComponent(
     url,
-  )}&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1280&viewport.height=800`;
+  )}&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1280&viewport.height=720`;
 
 const SiteCard = ({ site }: SiteCardProps) => {
   const [loaded, setLoaded] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [src, setSrc] = useState(() => getLocalPreview(site.url) || getRemotePreview(site.url));
+
+  const handleError = () => {
+    const remote = getRemotePreview(site.url);
+    if (src !== remote) {
+      setSrc(remote);
+    } else {
+      setFailed(true);
+    }
+  };
 
   return (
     <article
@@ -35,11 +58,14 @@ const SiteCard = ({ site }: SiteCardProps) => {
               <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-[hsl(0,0%,12%)] to-[hsl(0,0%,16%)]" />
             )}
             <img
-              src={getPreviewUrl(site.url)}
+              src={src}
               alt={`Prévia do site ${site.nome}`}
+              width={960}
+              height={540}
               loading="lazy"
+              decoding="async"
               onLoad={() => setLoaded(true)}
-              onError={() => setFailed(true)}
+              onError={handleError}
               className={`h-full w-full object-cover object-top transition-all duration-500 group-hover:scale-105 ${
                 loaded ? "opacity-100" : "opacity-0"
               }`}

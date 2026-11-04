@@ -20,6 +20,12 @@ export default {
     const url = new URL(request.url);
     const accept = request.headers.get("accept") || "";
 
+    // Antigo portfólio (portifolio.fintelmannd.com.br) agora vive em /trafego.
+    // Mantém a query string (UTMs, gclid, fbclid) no redirecionamento.
+    if (url.hostname === "portifolio.fintelmannd.com.br") {
+      return Response.redirect(`https://www.fintelmannd.com.br/trafego${url.search}`, 301);
+    }
+
     if (url.pathname === "/.well-known/api-catalog") {
       return withLink(
         new Response(JSON.stringify({ linkset: [] }), {

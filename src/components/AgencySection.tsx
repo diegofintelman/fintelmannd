@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AgencySection = () => {
   return (
     <section className="py-16 bg-secondary/30">
@@ -11,14 +13,12 @@ const AgencySection = () => {
           respeito a processos e foco em execução, meu portfólio mostra como eu trabalho na prática.
         </p>
         
-        <a
-          href="https://portifolio.fintelmannd.com.br/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/trafego"
           className="inline-flex items-center justify-center px-6 py-3 bg-foreground text-background font-medium rounded-md hover:bg-foreground/90 transition-colors duration-300"
         >
           Ver portfólio de tráfego pago
-        </a>
+        </Link>
       </div>
     </section>
   );

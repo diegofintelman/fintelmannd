@@ -5,6 +5,13 @@
   "name": "fintelmannd",
   "main": "worker/index.ts",
   "compatibility_date": "2026-11-03",
+  // Domínios personalizados deste Worker (a lista substitui a do painel a cada deploy).
+  // portifolio.* foi incorporado à rota /trafego: o Worker redireciona (301).
+  "routes": [
+    { "pattern": "fintelmannd.com.br", "custom_domain": true },
+    { "pattern": "www.fintelmannd.com.br", "custom_domain": true },
+    { "pattern": "portifolio.fintelmannd.com.br", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
@@ -14,6 +21,7 @@
     "run_worker_first": [
       "/*",
       "!/assets/*",
+      "!/previews/*",
       "!/favicon.png",
       "!/og-image.jpg",
       "!/placeholder.svg",

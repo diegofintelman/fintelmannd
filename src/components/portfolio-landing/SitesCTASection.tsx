@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const SitesCTASection = () => {
   return (
@@ -11,17 +12,15 @@ const SitesCTASection = () => {
           Os sites e landing pages que desenvolvi estão organizados em uma página separada,
           para manter este portfólio focado em tráfego pago e estratégia digital.
         </p>
-        <a
-          href="https://sitesportifolio.lovable.app"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          to="/site"
           className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium 
             border border-gold/50 text-gold bg-transparent rounded
             hover:bg-gold/10 hover:border-gold transition-colors duration-200"
         >
           Ver portfólio de sites
           <ArrowRight className="w-4 h-4" />
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -199,6 +199,48 @@ export const sites: SiteProject[] = [
     descricao: "Site para fisioterapeuta especialista em coluna em Cuiabá, com foco em hérnia de disco e dores agudas ou crônicas.",
   },
   {
+    nome: "Cristina Linhares",
+    categoria: "Psicologia / Psiquiatria",
+    url: "https://cristinalinhares.grupov2w.com.br/",
+    descricao: "Site para psicóloga em Salvador e online, com abordagem baseada em ciência e comportamento e apresentação acolhedora.",
+  },
+  {
+    nome: "Sheila Misk - Vívore",
+    categoria: "Fisioterapia",
+    url: "https://vivore.grupov2w.com.br/",
+    descricao: "Site para clínica de fisioterapia neurofuncional em Belo Horizonte, com reabilitação de AVC, Parkinson e neuropediatria.",
+  },
+  {
+    nome: "Rafaela Rigo - Saluthe",
+    categoria: "Fisioterapia",
+    url: "https://saluthefisio.grupov2w.com.br/",
+    descricao: "Site para clínica de fisioterapia e pilates em Chapecó/SC, com foco em tratar a causa da dor e agendamento direto.",
+  },
+  {
+    nome: "Lilian Neto",
+    categoria: "Fisioterapia",
+    url: "https://lilianneto.grupov2w.com.br/",
+    descricao: "Site para fisioterapeuta pélvica em São Paulo, com comunicação acolhedora sobre saúde íntima para mulheres e homens.",
+  },
+  {
+    nome: "Rafael de Matos",
+    categoria: "Médico",
+    url: "https://rafaeldematos.grupov2w.com.br/",
+    descricao: "Site para cirurgião oftalmológico em Curitiba, com foco em cirurgia refrativa, catarata e no Protocolo Visão Renovada.",
+  },
+  {
+    nome: "Clínica Humaniza",
+    categoria: "Fisioterapia",
+    url: "https://clinicahumaniza.grupov2w.com.br/",
+    descricao: "Site para clínica de fisioterapia, quiropraxia e pilates em Campinas, com atendimento humanizado e serviços integrados.",
+  },
+  {
+    nome: "Fernando Guerra",
+    categoria: "Osteopatia / Quiropraxia",
+    url: "https://fernandoguerra.grupov2w.com.br/",
+    descricao: "Site para fisioterapeuta osteopata em São José/SC, com foco em dor lombar, cervical e DTM, sem manobras bruscas.",
+  },
+  {
     nome: "Kelly Belem",
     categoria: "Imóveis",
     url: "https://kellybelem.com",
